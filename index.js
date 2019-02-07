@@ -98,4 +98,4 @@ function updateGame() {
   client.user.setGame(`v${version} | ${client.guilds.size.toLocaleString()} servers`)
 }
 
-setInterval(updateGame, 300000); //update every 5 min
+setInterval(updateGame, 300000); //update every 5 minf
